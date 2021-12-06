@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    background-color:#e0e5ec;
+    text-align: center;
+  }
+   button {
+    transition: 1s;
+    color: rgb(114, 51, 114);
+    border-radius: 22px;
+    background:#e0e5ec;
+    box-shadow: inset -4px -4px 9px rgba(255, 255, 255, 0),
+      inset 4px 4px 9px rgba(255, 255, 255, 0),
+      inset 9px 9px 16px rgba(255, 255, 255, 0.6),
+      inset -9px -9px 16px rgba(255, 255, 255, 0.5);
+    border-style: none;
+    height: 150px;
+    width: 150px;
+    font-size: 1.5rem;
+    margin-top: 350px;
+    margin-left: 1rem;
+  }
+  button:hover {
+    background: #E0E5EC;
+    box-shadow: inset -4px -4px 9px rgba(255, 255, 255, 0.6),
+      inset 4px 4px 9px rgba(87, 85, 85, 0.616),
+      inset 9px 9px 16px rgba(255, 255, 255, 0),
+      inset -9px -9px 16px rgba(255, 255, 255,0);
+    color: rgb(224, 104, 164);
+  }
